@@ -1,0 +1,327 @@
+
+body{ 
+    
+   
+    background-color: #eeedf2;
+   
+}
+
+hr {
+    border: 1.5px solid black;
+    border-radius: 1px;
+}
+
+
+.landing-page {
+    
+    overflow: hidden;
+    
+    background-attachment: scroll;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    
+    
+}
+
+.landing-bg {
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    z-index: -20;
+
+}
+
+
+
+/*header*/
+header{
+    
+    
+    height: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    
+    align-items: center;
+}
+
+.header-logo{
+    color: white;
+    font-family: 'Yellowtail', cursive;
+    font-size: 30px;
+    text-transform: uppercase;
+    position: absolute;
+    z-index: 2;
+    margin: auto 30px;
+    font-weight: 500;
+    position: fixed;
+    
+
+}
+
+nav {
+    
+    height: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #bc6ff1;
+    align-items: center;
+    position: fixed;
+    z-index: 1;
+    font-weight: 400;
+    width: 100%;
+    
+}
+
+
+.nav-list {
+    display: flex;
+    flex-wrap: wrap;
+    vertical-align: auto;
+    margin-left: calc(100vw - 70%);
+    position: fixed;
+    
+    
+    
+    
+    
+}
+
+.nav-list li {
+    
+    align-content: center;
+    display: block;
+    align-items: center;
+    margin-top: 10px;
+    
+
+}
+.nav-list li a {
+    cursor: pointer;
+    margin: auto 18px;
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+    padding: auto 5px;
+    align-items: center;
+    font-weight: 400;
+    
+    
+}
+
+.nav-list li a:hover{
+    text-shadow: 2px 2px 2px rgb(14, 0, 39);
+ 
+}
+
+/* main left */
+
+.intro {
+    
+    font-size: 40px;
+    font-weight: 100;
+    margin: 90px auto 50px 0;
+    line-height: 1.5;
+    font-weight: 400;
+   /* font-family: 'Sansita Swashed', cursive;*/
+    text-transform: capitalize;
+    text-shadow: 2px 2px 3px  rgb(14, 0, 39);
+    
+}
+
+
+button {
+    font-weight: 200;
+}
+.main {
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    height: 100vh;
+    
+    
+
+}
+
+.left {
+    width: 50%;
+    padding: 70px 0 0 100px ;
+    
+    
+}
+
+
+
+
+
+.my-btn {
+    
+    margin-top: 5px;
+    text-transform: capitalize;
+    background-color: #bc6ff1;
+    color: #fcf1f1;
+    padding: 8px 12px;
+    font-size: 20px;
+
+    border: 1px solid  #bc6ff1;
+    font-weight: 500;
+    border-radius: 5px;
+    
+    
+
+    
+
+   
+}
+
+.my-btn:hover {
+    border: hidden;
+    background-color: #892cdc; 
+    box-shadow: 5px 5px 5px  rgb(14, 0, 39);
+        
+}
+
+
+/* right */
+
+.right {
+    width: 50%;
+    padding: 80px;
+}
+
+
+
+/*skills*/
+
+.title {
+    text-transform: capitalize;
+    font-size: 32px;
+    font-weight: 500;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 15px;
+}
+
+.skills {
+    
+    width: 900px;
+    height: 800px;
+    margin: 20px;
+    margin-bottom: 20px;
+    
+    margin: auto;
+}
+
+.sec-skills {
+    
+    width: 900px;
+    height: 700px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+
+.skills .card {
+    width: 260px;
+    height: 300px;
+    margin: 15px 20px;  
+    flex-wrap: wrap;
+    display: block;
+    background-color: #bc6ff1;
+}
+
+.face.front{
+    width: 100%;
+    height: 100%;
+}
+
+.face.front h2 {
+    text-align: center;
+    padding: 5px;
+    font-weight: 200;
+    font-size: 24px;
+    color: white;
+}
+
+img {
+    height: calc(100% - 44px);
+    vertical-align: center;
+    width: 100%;
+    overflow: hidden;
+    
+}
+
+/* projrcts*/
+
+.certificates {
+    width: 900px;
+    height: 800px;
+    margin: 20px;
+    margin-bottom: 20px;
+    display: block;
+    margin: auto;
+}
+
+.sec-certi {
+    width: 100%;
+    height: auto;
+    margin-top: 25px;
+    display: block;
+
+}
+
+
+h3 {
+    text-transform: capitalize;
+    font-size: 24px;
+    background-color: #bc6ff1;
+    margin: 5px 5px;
+    padding: 8px;
+    color: white;
+    font-weight: 300;
+    border-radius: 15px;
+}
+
+h4 {
+    text-transform: capitalize;
+    font-size: 20px;
+    margin-left: 15px;
+}
+
+p {
+    font-size: 16px;
+    margin-left: 25px;
+}
+
+
+/*footer*/
+
+.foot{
+    width: 900px;
+    height: 150px;
+    background-color: #bc6ff1;
+    width: 900px;
+    margin: auto;
+    margin-bottom: 20px;
+    margin-top: 220px;
+    border-radius: 30px 20px;
+    padding: 10px;
+    color: white;
+}
+
+
+
+td {
+    margin: 5px;
+    padding: 10px 15px;
+    font-size: 1rem;
+}
+
+.foot-link {
+    text-decoration: none;
+    color: white;
+}
+
+.foot-link:hover {
+    color: white;
+    text-decoration: underline;
+}
